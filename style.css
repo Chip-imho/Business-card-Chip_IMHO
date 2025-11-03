@@ -6,6 +6,26 @@
   margin: 0 auto;
 }
 
+<style>
+  .typing {
+    width: 18ch; /* Adjust this to match your text length */
+    animation: typing 2s steps(18), blink-caret 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    display: inline-block;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+  }
+
+  @keyframes blink-caret {
+    50% { border-color: transparent }
+  }
+</style>
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -65,4 +85,5 @@ span::after {
         visibility: hidden;
     }
 }
+
 
