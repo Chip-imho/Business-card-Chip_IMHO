@@ -7,7 +7,7 @@ body {
 }
 
 #typing-text {
-    width: 30ch; /* Match the number of characters in your text */
+    width: 22ch; 
     animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -57,3 +57,4 @@ img {
     max-width: 100%;
     height: auto;
 }
+
