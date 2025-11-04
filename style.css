@@ -7,12 +7,13 @@ body {
 }
 
 #typing-text {
-    width: 18ch;
-    animation: typing 2s steps(18), blink-caret 0.5s step-end infinite alternate;
+    width: 30ch; /* Match the number of characters in your text */
+    animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
 }
+
 
 .cursor {
     animation: blink-cursor 1s step-end infinite;
