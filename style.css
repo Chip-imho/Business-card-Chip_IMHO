@@ -22,22 +22,6 @@ body {
     display: inline-block;
 }
 
-#typing-text,
-#typing-text1 {
-    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
-    white-space: normal;
-    overflow: hidden;
-    display: inline-block;
-    max-width: 90vw; 
-    margin: 0 auto;
-}
-#typing-text,
-#typing-text1 {
-    font-size: clamp(12px, 4vw, 18px);
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 90vw;
-}
 
 
 .cursor {
@@ -49,8 +33,7 @@ body {
     animation: blink-cursor 1s step-end infinite;
 }
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; } 
+    from { width: 0 }
 }
 
 }
@@ -87,6 +70,7 @@ h1 {
     color: white;
     text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
 }
+
 
 
 
