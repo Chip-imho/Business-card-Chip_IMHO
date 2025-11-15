@@ -34,7 +34,6 @@ ul.links{
     width: 65vw;
 
     text-decoration: none;
-    border-top: 0;
 
 }
 
@@ -98,7 +97,7 @@ span.dot{
 #typing-text{
     color: hsl(313, 43%, 44%);
 
-    width: 70vw;
+    width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: normal;
 
@@ -107,7 +106,7 @@ span.dot{
 #typing-text_1{
     color: hsl(0, 0%, 99%);
 
-    width: 70vw;
+    width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: normal;
     display: block;
@@ -143,8 +142,6 @@ span.dot{
 @keyframes blink-caret {
     50% { border-color: transparent; }
 }
-
-
 
 
 
