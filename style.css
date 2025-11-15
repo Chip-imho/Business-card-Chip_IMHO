@@ -31,8 +31,10 @@ body {
 ul.links{
     list-style-type: circle;
     color: hsl(313, 49%, 59%);
-    font-size: 2vw;
+    width: 65vw;
+
     text-decoration: none;
+    border-top: 0;
     margin-top: 0;
 }
 
@@ -57,7 +59,7 @@ div{
 
 #Chip_IMHO{
     color: hsl(313, 49%, 59%);
-    font-size: 4vw;
+
     overflow: hidden;
     border-bottom: 0px;
 /*    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); */
@@ -78,9 +80,11 @@ h1#Chip_IMHO.light{
 }
 span#typing-text{
     margin-top: 0px;
+    overflow: hidden;
 }
 span#typing-text_1{
     margin-top: 0px;
+    overflow: hidden;
 }
 span.dot{
     color: hsl(313, 43%, 44%);
@@ -93,8 +97,8 @@ span.dot{
 
 #typing-text{
     color: hsl(313, 43%, 44%);
-    font-size: 2vw;
-    width: 100vw;
+
+    width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -102,8 +106,8 @@ span.dot{
 }
 #typing-text_1{
     color: hsl(0, 0%, 99%);
-    font-size: 2vw;
-    width: 100vw;
+
+    width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -140,9 +144,6 @@ span.dot{
 @keyframes blink-caret {
     50% { border-color: transparent; }
 }
-
-
-
 
 
 
