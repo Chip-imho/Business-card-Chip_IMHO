@@ -5,13 +5,12 @@ let index = 0;
 function animateDots() {
     document.getElementById("typing-text").innerHTML = baseText + dots[index];
     index = (index + 1) % dots.length; 
-    setTimeout(animateDots, 400); // speed (ms)
+    setTimeout(animateDots, 400); 
 }
 
 animateDots();
 
 
-// SECOND LINE TYPING EFFECT (unchanged)
 const text2 = "Enthusiast of IT-world, scripting my way through the chaos ";
 let j = 0;
 
