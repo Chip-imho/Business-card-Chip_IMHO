@@ -1,4 +1,4 @@
-const baseText = "I may not have a brain, gentlemen, but I have an idea";
+const baseText = "I may not have a brain, gentlemen, but I do have an idea";
 const dots = ["", ".", "..", "...", "..", ".", ""]; 
 let index = 0;
 
